@@ -1,0 +1,178 @@
+:root{
+    --clr-primary: #ff4c68;
+    --clr-secondary: #ef8172;
+    --clr-tertiary: #8f8f8f;
+
+    --ff-primary: 'Montserrat', sans-serif;
+    --ff-secondary:'Ubuntu', sans-serif;
+
+    --fw-mont-bold: 700;
+    --fw-mont-black: 900;
+}
+body{
+    font-family: var(--ff-primary);
+}
+h1{
+    font-family: var(--ff-primary);  
+    color: white;
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+h2{
+    font-family: var(--ff-primary);
+    font-size: 3rem;  
+    line-height: 1.5; 
+    font-weight: 700;
+}
+h3{
+    font-family:var(--ff-primary);
+    font-size: 1.5rem;   
+    font-weight: 700;
+}
+
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+
+/* ---------------------TITLE-------------- */
+#title{
+    background-color: var(--clr-primary);
+}
+
+/*---------------------nav bar---------------------------*/
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-brand{
+    font-family: var(--ff-secondary);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: var(--ff-primary);
+    font-weight: 300;
+}
+
+/*-------------------------downnload buttne and doggy image-------------------------------*/
+.download-btn{
+    margin: 4% 5% 0% 5%;
+}
+.header-img{
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+}
+.positioning{
+    position: relative;
+    left: 5%;
+
+}
+
+/*----------------------FEATURES---------------------------*/
+#features{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 8% 0px 8% 0px;
+    background-color: white;
+}
+.fas{
+    color: var(--clr-secondary);
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+.fas:hover{
+    color: var(--clr-primary);
+}
+.features-h3{
+    font-family: var(--ff-primary);
+    font-size: 1.5rem;  
+    line-height: 1.5;  
+    font-weight: 700;
+}
+.features-p{
+    color: #8f8f8f;
+    padding: 0% 18%;
+}
+
+/* ------------------TESTIMONIAL------------------------- */
+#testimonials{
+    background-color: var(--clr-primary);
+    text-align: center;
+    color: white;
+}
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+
+/* ------------------------PRESS-------------- */
+#press{
+    background-color: var(--clr-primary);
+    padding-bottom: 5%;
+    text-align: center;
+}
+.press-img{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* -------------------PRICING------------------ */
+#pricing{
+    text-align: center;
+    padding: 50px;
+}
+.per-month{
+    color: #8f8f8f;
+    font-size: 2rem;
+}
+.price-deck{
+    padding: 3% 2%;
+}
+
+/* ---------------------CTA------------------- */
+#cta{
+    background-color: var(--clr-primary);
+    color: white;
+    padding: 5% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: var(--ff-primary);
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* -----------------------FOOOTER----------------- */
+#footer{
+    text-align: center;
+    padding: 5% 15%;
+}
+.social-media{
+    padding: 20px 10px;
+}
+
+
+/*-------------tablet settings MEDIA QUERY-------------- */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .header-img{
+        transform: rotate(0);
+        position: static;
+        padding-top: 5%;
+    }
+}
